@@ -50,6 +50,7 @@ body{
     font-size: 28px;
     font-weight: bold;
     color: #4e45d5;
+    user-select: none;
 }
 
 .logo-circle{
@@ -538,16 +539,7 @@ a{
 }
 #project2{
     margin-left: 120px;
-    background-image: url(userAsset/portfolio.png);
-}
-
-#project3{
-    background-image: url(projects/Project3.png);
-}
-
-#project4{
-    margin-left: 120px;
-    background-image: url(projects/Project4.png);
+    background-image: url(projects/portfolio.png);
 }
 
 @media screen and (max-width:800px) {
